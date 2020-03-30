@@ -2,9 +2,17 @@
 
 #product-overview {
   background-image: url("./assets/freedom.jpg");
+  background-color: hsl(136, 74%, 53%);
+  background-size:  cover;
+  background-repeat:no-repeat;
+  background-position: 50% 10%;
+  background-origin: border-box;
+  background-clip: border-box;
   padding: 10px;
   width: 100%;
   height: 528px;
+
+  position: relative;
 }
 
 .plan__list {
@@ -13,9 +21,12 @@
     text-align: center;
 }
 
-#product-overview h1 {
+#product-overview h2 {
   color: white;
   font-family: "Anton";
+  position: absolute;
+  bottom: 5%;
+  left: 3%;
 }
 
 .plan {
