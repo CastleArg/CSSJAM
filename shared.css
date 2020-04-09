@@ -12,6 +12,7 @@ body {
   width: 100%;
   position: fixed;
   z-index: 1;
+  top: 0;
 }
 .main-nav__items {
   margin: 0;
