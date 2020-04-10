@@ -6,6 +6,19 @@ body {
   font-family: "Montserrat";
   margin: 0;
 }
+
+.backdrop {
+  position: fixed;
+  z-index: 100;
+  top:0;
+  left: 0;
+  width: 80vmin;
+  height: 50vh;
+  background: rgba(0, 0, 0, 0.5);
+  display: none;
+}
+
+
 .main-header {
   background: green;
   padding: 8px 16px;
