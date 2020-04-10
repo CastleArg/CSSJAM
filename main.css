@@ -1,13 +1,20 @@
-
-
 #product-overview {
-  background-image: url("./assets/freedom.jpg");
-  background-color: hsl(136, 74%, 53%);
+  background: linear-gradient(to top, rgba(80, 68, 18, 0.6) 10%, transparent),
+    url("./assets/freedom.jpg") left 10% bottom 70% / cover no-repeat border-box,
+    #ff1b68;
+  /* background-image: linear-gradient(180deg, red 88%, blue);   */
+  /* background-image: radial-gradient(
+    ellipse farthest-side at 50% 75%,
+    red,
+    blue,
+    green
+  ); */
+  /* background-color: hsl(136, 74%, 53%);
   background-size:  cover;
   background-repeat:no-repeat;
   background-position: 50% 10%;
   background-origin: border-box;
-  background-clip: border-box;
+  background-clip: border-box; */
   padding: 10px;
   width: 100%;
   height: 528px;
@@ -16,9 +23,9 @@
 }
 
 .plan__list {
-    width: 80%;
-    margin: auto;
-    text-align: center;
+  width: 80%;
+  margin: auto;
+  text-align: center;
 }
 
 #product-overview h2 {
@@ -40,46 +47,43 @@
 }
 
 .plan__annotation {
-    background: white;
-    color: darkgreen;
-    padding: 8px;
-    box-shadow:  2px 2px 2px 2px rgb(0,0,0,0.5);
-    border-radius: 3px;
-
+  background: white;
+  color: darkgreen;
+  padding: 8px;
+  box-shadow: 2px 2px 2px 2px rgb(0, 0, 0, 0.5);
+  border-radius: 3px;
 }
 
 .plan__features {
-    list-style: none;
-    margin: 0;
-    padding: 10px;
+  list-style: none;
+  margin: 0;
+  padding: 10px;
 }
 
 .plan__features li {
-    margin: 8px 0;;
+  margin: 8px 0;
 }
 
 .plan__price {
-    color: rgb(134, 121, 121);
-
+  color: rgb(134, 121, 121);
 }
 
 .plan__title {
-    color: darkgreen;
-    
+  color: darkgreen;
 }
 
-.plan--highlighted{
-    background: darkgreen;
-    color: whitesmoke;
-    box-shadow:  2px 2px 2px 2px rgb(0,0,0,0.5);
+.plan--highlighted {
+  background: darkgreen;
+  color: whitesmoke;
+  box-shadow: 2px 2px 2px 2px rgb(0, 0, 0, 0.5);
 }
 
-.plan--highlighted .plan__price  {
-    color: rgb(78, 212, 78);
+.plan--highlighted .plan__price {
+  color: rgb(78, 212, 78);
 }
 
 .plan--highlighted .plan__title {
-    color: rgb(78, 212, 78);
+  color: rgb(78, 212, 78);
 }
 
 .section-title {
@@ -87,66 +91,63 @@
   text-align: center;
 }
 
-
 .button {
-    background: darkgreen;
-    color: white;
-    font: inherit;
-    border: 1.5px solid darkblue;
-    border-radius: 8px;
-    font-weight: bold;
-    cursor: pointer;
+  background: darkgreen;
+  color: white;
+  font: inherit;
+  border: 1.5px solid darkblue;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
 }
 
 .button:hover,
 .button:active {
-    background: white;
-    color: darkgreen;
+  background: white;
+  color: darkgreen;
 }
 
 .button:focus {
-    outline: none;
+  outline: none;
 }
 
 #key-features {
-    background: red;
-    margin-top: 80px;
-    padding: 16px;
+  background: red;
+  margin-top: 80px;
+  padding: 16px;
 }
 
 #key-features .section-title {
-    color: white;
-    margin: 32px;
+  color: white;
+  margin: 32px;
 }
 
 .key-feature__list {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    text-align: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
 
 .key-feature {
-    display: inline-block;
-    width: 30%;
-    vertical-align: top;
+  display: inline-block;
+  width: 30%;
+  vertical-align: top;
 }
 
 .key-feature__description {
-    text-align: center;
-    font-weight: bold;
-    color: white;
-    font-size: 20px;
-   
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  font-size: 20px;
 }
 
 .key-feature__image {
-    background: rosybrown;
-    width: 128px;
-    border: 2px solid darkgray;
-    border-radius: 50%;
-    height: 128px;
-    margin: auto;
+  background: rosybrown;
+  width: 128px;
+  border: 2px solid darkgray;
+  border-radius: 50%;
+  height: 128px;
+  margin: auto;
+  padding: 20px;
 }
-
-
