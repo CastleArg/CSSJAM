@@ -20,6 +20,7 @@
 
   .testimonial__image {
       width: 100%;
+      vertical-align: bottom;
   }
   
   .testimonial__info {
